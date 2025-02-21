@@ -69,3 +69,43 @@
         transform: translateY(-5px);
     }
 }
+
+span.error {
+    font-size: 11px;
+    color: red;
+    display: block;
+    text-align: left;
+    padding-left: 5px;
+}
+
+body {
+    .no-display {
+        display: none !important;
+    }
+}
+
+.msg-success, .msg-error {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    span {
+        text-align: center;
+        max-width: 310px;
+        display: block;
+        border-radius: 23px;
+        padding: 10px;
+        box-sizing: border-box;
+        color: white;
+        font-weight: 700;
+        margin: 0 auto;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, .1);
+    }
+}
+
+.msg-success span {
+    background-color: #25d366;
+}
+
+.msg-error span{
+    background-color: red;
+}
