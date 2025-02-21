@@ -1,0 +1,70 @@
+@use 'default/_vars' as v;
+
+.eapps-instagram-feed-content {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .1);
+    border-radius: 23px;
+}
+
+.eapps-instagram-feed-posts-slider {
+    border-radius: 0 0 23px 23px;
+}
+
+.eapps-instagram-feed-header.es-header {
+    border-radius: 23px 23px 0 0;
+}
+
+#eapps-instagram-feed-1 a[rel=noreferrer] {
+    display: none;
+}
+
+.insta {
+    position: relative;
+    .hidden {
+        display: block;
+        position: absolute;
+        height: 50px;
+        background-color: #fff;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        z-index: 999999;
+    }
+}
+
+.header-area {
+    background-color: v.$color-primary;
+    z-index: 99999999;
+}
+
+.font.icon {
+    font-size: 24px;
+    padding: 18px;
+    width: 60px;
+    height: 60px;
+    background-color: v.$color-primary;
+    color: v.$color-secondary;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.whatsapp {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:#25d366;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.5s;
+    z-index: 99999999;
+    i {
+        color: #fff;
+        font-size: 50px;
+    }
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
