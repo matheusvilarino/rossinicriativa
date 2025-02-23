@@ -3,6 +3,7 @@
     let doc = document,
         submitMessage = doc.querySelector('#form-submit'),
         inputName =  doc.querySelector('#name'),
+        inputPhone =  doc.querySelector('#phone'),
         inputEmail =  doc.querySelector('#email'),
         inputSubject =  doc.querySelector('#subject'),
         inputMessage =  doc.querySelector('#message'),
@@ -18,7 +19,7 @@
             $(input).closest('fieldset').find('.error').addClass('no-display');
         }
 
-        [...doc.querySelectorAll('#name, #subject, #message')].map((input) => {
+        [...doc.querySelectorAll('#name, #subject, #message, #phone')].map((input) => {
             if(input.value.length > 0) { removeError(input); }
             else addError(input);
         });
@@ -48,6 +49,7 @@
         submitMessage.disabled = true;
 
         formData.append('Nome', inputName.value);
+        formData.append('Celular', inputPhone.value);
         formData.append('Email', inputEmail.value);
         formData.append('Assunto', inputSubject.value);
         formData.append('Mensagem', inputMessage.value);
@@ -59,7 +61,7 @@
             body: formData
         };
 
-        fetch('https://formsubmit.co/ajax/matheus.2014tetch@gmail.com', options)
+        fetch('https://formsubmit.co/ajax/rossinicriativa@gmail.com', options)
         .then(data => data.json())
         .then(response => {
             if(!response.success) throw false;

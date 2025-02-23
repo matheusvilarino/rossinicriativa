@@ -5,6 +5,9 @@
     border-radius: 23px;
 }
 
+p {
+    text-align: justify;
+}
 
 .eapps-instagram-feed-posts-slider {
     border-radius: 0 0 23px 23px;
@@ -41,7 +44,7 @@
     font-size: 24px;
     padding: 18px;
     width: 60px;
-    height: 60px;
+    height: 60px !important;
     background-color: v.$color-primary;
     color: v.$color-secondary;
     border-radius: 50%;
@@ -108,4 +111,10 @@ body {
 
 .msg-error span{
     background-color: red;
+}
+
+.fill-form {
+    .info-post, .icon {
+        height: 100%;
+    }
 }
