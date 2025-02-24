@@ -120,6 +120,7 @@ body {
 }
 
 #form-submit {
+    position: relative;
     z-index: 3;
     .label {
         display: block;
