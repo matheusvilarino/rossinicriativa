@@ -104,12 +104,17 @@
         }, 1);
     };
 
-    inputPhone.addEventListener('keypress', function() {
+    inputPhone.addEventListener('keypress', function () {
         mask(this);
     })
 
-    inputPhone.addEventListener('blur', function() {
+    inputPhone.addEventListener('blur', function () {
         mask(this);
     })
+
+    // page speed improve {
+    setTimeout( () => {
+        doc.querySelector('.whatsapp').classList.add('appear')
+    }, 2000);
 
 })(window.jQuery);
