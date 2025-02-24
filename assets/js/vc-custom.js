@@ -112,9 +112,4 @@
         mask(this);
     })
 
-    // page speed improve {
-    setTimeout( () => {
-        doc.querySelector('.whatsapp').classList.add('appear')
-    }, 2000);
-
 })(window.jQuery);
