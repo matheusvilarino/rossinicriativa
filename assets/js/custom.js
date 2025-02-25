@@ -94,7 +94,6 @@
     var scrollPos = $(document).scrollTop();
     $('.nav .scroll-to-section a').each(function () {
       var currLink = $(this);
-      console.log(currLink);
 
       var refElement = $(currLink.attr("href"));
       if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
