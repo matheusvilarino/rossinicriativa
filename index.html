@@ -69,12 +69,13 @@
     }
   </style>
 
+  <link rel="preload" as="image" href="assets/images/slider-dec.png">
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preload" href="vendor/bootstrap/css/bootstrap.min.css" type="text/css" as="style" onload="this.onload=null; this.rel='stylesheet';"/>
 
   <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="preload" href="assets/css/fontawesome.css" type="text/css" as="style" onload="this.onload=null; this.rel='stylesheet';"/>
   <link rel="stylesheet" href="generated/css/app.min.css">
 
 </head>
@@ -95,7 +96,7 @@
   <!-- ***** Preloader End ***** -->
 
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow">
+  <header class="header-area header-sticky">
     <div class="container">
       <div class="row">
         <div class="col-12">
