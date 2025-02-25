@@ -345,6 +345,7 @@ intro
 .intro-banner:after {
   content: "";
   background-image: url(../../assets/images/slider-left-dec.jpg);
+  background-image: url(../../assets/images/slider-left-dec.webp);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -353,19 +354,7 @@ intro
   height: 625px;
   z-index: 1;
 }
-/*
-.intro-banner:before {
-  content: '';
-  background-image: url(../../assets/images/slider-right-dec.jpg);
-  background-repeat: no-repeat;
-  position: absolute;
-  right: 0;
-  top: 0px;
-  width: 1159px;
-  height: 797px;
-  z-index: 2;
-}
-*/
+
 
 .intro-banner img {
   max-width: 152px;
@@ -1102,6 +1091,7 @@ Banner Style
 .main-banner:after {
   content: "";
   background-image: url(../../assets/images/slider-left-dec.jpg);
+  background-image: url(../../assets/images/slider-left-dec.webp);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1114,6 +1104,7 @@ Banner Style
 .main-banner:before {
   content: "";
   background-image: url(../../assets/images/slider-right-dec.jpg);
+  background-image: url(../../assets/images/slider-right-dec.webp);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1429,6 +1420,7 @@ Services Style
 .services:after {
   content: "";
   background-image: url(../../assets/images/services-left-dec.jpg);
+  background-image: url(../../assets/images/services-left-dec.webp);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1441,6 +1433,7 @@ Services Style
 .services:before {
   content: "";
   background-image: url(../../assets/images/services-right-dec.jpg);
+  background-image: url(../../assets/images/services-right-dec.webp);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1682,6 +1675,7 @@ Portfolio
 .our-portfolio:before {
   content: "";
   background-image: url(../../assets/images/portfolio-right-dec.jpg);
+  background-image: url(../../assets/images/portfolio-right-dec.webp);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1694,6 +1688,7 @@ Portfolio
 .our-portfolio:after {
   content: "";
   background-image: url(../../assets/images/portfolio-left-dec.jpg);
+  background-image: url(../../assets/images/portfolio-left-dec.webp);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1802,6 +1797,7 @@ Blog
 .blog:before {
   content: "";
   background-image: url(../../assets/images/blog-left-dec.jpg);
+  background-image: url(../../assets/images/blog-left-dec.webp);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1967,6 +1963,7 @@ contact
 
 form#contact:before {
   background-image: url(../../assets/images/contact-top-right.png);
+  background-image: url(../../assets/images/contact-top-right.webp);
   position: absolute;
   right: 0;
   top: 0;
@@ -1986,6 +1983,7 @@ form#contact:before {
 
 form#contact:after {
   background-image: url(../../assets/images/contact-bottom-right.png);
+  background-image: url(../../assets/images/contact-bottom-right.webp);
   position: absolute;
   right: 0;
   bottom: 0;

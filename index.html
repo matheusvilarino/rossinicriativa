@@ -25,8 +25,6 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
   <link rel="shortcut icon" type="image/jpeg" href="assets/images/favicon.jpeg" />
 
   <title>Rossini Criativa - Agência de Branding e Design Estratégico</title>
@@ -69,13 +67,15 @@
     }
   </style>
 
-  <link rel="preload" as="image" href="assets/images/slider-dec.png">
+  <link rel="preload" as="image" href="assets/images/slider-dec.webp">
+  <link rel="preload" as="image" href="assets/images/slider-left-dec.webp">
 
   <!-- Bootstrap core CSS -->
   <link rel="preload" href="vendor/bootstrap/css/bootstrap.min.css" type="text/css" as="style" onload="this.onload=null; this.rel='stylesheet';"/>
 
   <!-- Additional CSS Files -->
   <link rel="preload" href="assets/css/fontawesome.css" type="text/css" as="style" onload="this.onload=null; this.rel='stylesheet';"/>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" type="text/css" as="style" onload="this.onload=null; this.rel='stylesheet';">
   <link rel="stylesheet" href="generated/css/app.min.css">
 
 </head>
@@ -103,7 +103,11 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="assets/images/logo-v1.png" alt="Logo Rossini Criativa">
+              <picture>
+                <source srcset="assets/images/logo-v1.webp" type="image/webp">
+                <source srcset="assets/images/logo-v1.png" type="image/png"> 
+                <img src="assets/images/logo-v1.png" alt="Logo Rossini Criativa">
+              </picture>
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -155,7 +159,11 @@
             </div>
             <div class="col-lg-6">
               <div class="right-image">
-                <img src="assets/images/slider-dec.png" alt="Rossini Criativa freepick">
+                <picture>
+                  <source srcset="assets/images/slider-dec.webp" type="image/webp">
+                  <source srcset="assets/images/slider-dec.png" type="image/png"> 
+                  <img src="assets/images/slider-dec.png" alt="Rossini Criativa freepick">
+                </picture>
               </div>
             </div>
           </div>
@@ -171,7 +179,11 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="about-left-image  wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
-                <img src="assets/images/about-dec.png" alt="Rossini Criativa freepick" loading="lazy">
+                <picture>
+                  <source srcset="assets/images/about-dec.webp" type="image/webp">
+                  <source srcset="assets/images/about-dec.png" type="image/png"> 
+                  <img src="assets/images/about-dec.png" alt="Rossini Criativa freepick" loading="lazy">
+                </picture>
               </div>
             </div>
             <div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
@@ -309,7 +321,11 @@
                             </div>
                             <div class="col-lg-6 align-self-center">
                               <div class="right-image">
-                                <img loading="lazy" src="assets/images/services-image.jpeg" alt="Rossini Criativa Branding">
+                                <picture>
+                                  <source srcset="assets/images/services-image.webp" type="image/webp">
+                                  <source srcset="assets/images/services-image.jpeg" type="image/jpeg"> 
+                                  <img src="assets/images/services-image.jpeg" alt="Rossini Criativa Branding" loading="lazy">
+                                </picture>
                               </div>
                             </div>
                           </div>
@@ -329,7 +345,11 @@
                             </div>
                             <div class="col-lg-6 align-self-center">
                               <div class="right-image">
-                                <img loading="lazy" src="assets/images/services-image-02.jpeg" alt="Rossini Criativa Produção de conteúdo">
+                                <picture>
+                                  <source srcset="assets/images/services-image-02.webp" type="image/webp">
+                                  <source srcset="assets/images/services-image-02.jpeg" type="image/jpeg"> 
+                                  <img src="assets/images/services-image-02.jpeg" alt="Rossini Criativa Produção de conteúdo" loading="lazy">
+                                </picture>
                               </div>
                             </div>
                           </div>
@@ -349,7 +369,11 @@
                             </div>
                             <div class="col-lg-6 align-self-center">
                               <div class="right-image">
-                                <img loading="lazy" src="assets/images/services-image-03.jpeg" alt="Rossini Criativa Design Gráfico">
+                                <picture>
+                                  <source srcset="assets/images/services-image-03.webp" type="image/webp">
+                                  <source srcset="assets/images/services-image-03.jpeg" type="image/jpeg"> 
+                                  <img src="assets/images/services-image-03.jpeg" alt="Rossini Criativa Design Gráfico" loading="lazy">
+                                </picture>
                               </div>
                             </div>
                           </div>
@@ -369,7 +393,11 @@
                             </div>
                             <div class="col-lg-6 align-self-center">
                               <div class="right-image">
-                                <img loading="lazy" src="assets/images/services-image-04.jpeg" alt="Rossini Criativa Sites institucionais">
+                                <picture>
+                                  <source srcset="assets/images/services-image-04.webp" type="image/webp">
+                                  <source srcset="assets/images/services-image-04.jpeg" type="image/jpeg"> 
+                                  <img src="assets/images/services-image-04.jpeg" alt="Rossini Criativa Sites institucionais" loading="lazy">
+                                </picture>
                               </div>
                             </div>
                           </div>
@@ -425,7 +453,11 @@
             <div class="item">
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img loading="lazy" src="assets/images/portfolio-01.jpeg" alt="Rossini Criativa Portifólio">
+                  <picture>
+                    <source srcset="assets/images/portfolio-01.webp" type="image/webp">
+                    <source srcset="assets/images/portfolio-01.jpeg" type="image/jpeg"> 
+                    <img src="assets/images/portfolio-01.jpeg" alt="Rossini Criativa Portifólio" loading="lazy">
+                  </picture>
                 </div>
                 <div class="down-content">
                   <h4>Fabi Mattos Lash Design</h4>
@@ -436,7 +468,11 @@
             <div class="item">
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img loading="lazy" src="assets/images/portfolio-02.jpeg" alt="Rossini Criativa Portifólio">
+                  <picture>
+                    <source srcset="assets/images/portfolio-02.webp" type="image/webp">
+                    <source srcset="assets/images/portfolio-02.jpeg" type="image/jpeg"> 
+                    <img src="assets/images/portfolio-02.jpeg" alt="Rossini Criativa Portifólio" loading="lazy">
+                  </picture>
                 </div>
                 <div class="down-content">
                   <h4>Thayna Matos Nail</h4>
@@ -447,7 +483,11 @@
             <div class="item">
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img loading="lazy" src="assets/images/portfolio-03.jpeg" alt="Rossini Criativa Portifólio">
+                  <picture>
+                    <source srcset="assets/images/portfolio-03.webp" type="image/webp">
+                    <source srcset="assets/images/portfolio-03.jpeg" type="image/jpeg"> 
+                    <img src="assets/images/portfolio-03.jpeg" alt="Rossini Criativa Portifólio" loading="lazy">
+                  </picture>
                 </div>
                 <div class="down-content">
                   <h4>Lúcia Jaconely Confeitaria</h4>
@@ -458,7 +498,11 @@
             <div class="item">
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img loading="lazy" src="assets/images/portfolio-04.jpeg" alt="Rossini Criativa Portifólio">
+                  <picture>
+                    <source srcset="assets/images/portfolio-04.webp" type="image/webp">
+                    <source srcset="assets/images/portfolio-04.jpeg" type="image/jpeg"> 
+                    <img src="assets/images/portfolio-04.jpeg" alt="Rossini Criativa Portifólio" loading="lazy">
+                  </picture>
                 </div>
                 <div class="down-content">
                   <h4>Yahweh Consultoria Empresarial</h4>
@@ -469,7 +513,11 @@
             <div class="item">
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img loading="lazy" src="assets/images/portfolio-05.jpeg" alt="Rossini Criativa Portifólio">
+                  <picture>
+                    <source srcset="assets/images/portfolio-05.webp" type="image/webp">
+                    <source srcset="assets/images/portfolio-05.jpeg" type="image/jpeg"> 
+                    <img src="assets/images/portfolio-05.jpeg" alt="Rossini Criativa Portifólio" loading="lazy">
+                  </picture>
                 </div>
                 <div class="down-content">
                   <h4>Picanha do Léo</h4>
@@ -519,7 +567,11 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="contact-dec">
-                  <img loading="lazy" src="assets/images/contact-dec.png" alt="Rossini Criativa Contato">
+                  <picture>
+                    <source srcset="assets/images/contact-dec.webp" type="image/webp">
+                    <source srcset="assets/images/contact-dec.png" type="image/png"> 
+                    <img src="assets/images/contact-dec.png" alt="Rossini Criativa Contato" loading="lazy">
+                  </picture>
                 </div>
               </div>
               <div class="col-lg-5">
